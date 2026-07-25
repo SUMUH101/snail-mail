@@ -6,17 +6,13 @@ A web application that replicates the experience of mailing handwritten letters 
 
 ## 2. Vision
 
-Snail Mail encourages slower, more intentional communication by digitally recreating the practice and anticipation of handwritten correspondence.
+Snail Mail encourages slower, more intentional communication by digitally recreating the ritual of handwriting letters.
 
 ## 3. Problem
 
-What problem exists today?
+There are few digital spaces designed for people who want communication itself to be a deliberate, creative activity rather than simply the fastest way to exchange information. Existing messaging platforms priortize efficiency over reflection, making it difficult to treat communication as a meaningful hobby or shared experience. This is especially true for friends, families, and long-distance couples who often want interactions that feel more personal and memorable than a quick text message or email.
 
-Why is it worth solving?
-
-Who experiences this problem?
-
-4. Solution
+## 4. Solution
 
 How does your product solve it?
 
