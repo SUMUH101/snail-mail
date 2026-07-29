@@ -21,7 +21,7 @@ Snail Mail provides a digital space where communication is designed to be experi
 - Slow is a feature
 - Every interaction should feel tactile
 - Minimize distractions
-- Encourage intentional communication
+- Encourage thoughtful communication
 - Intentional friction adds value
 - Every feature should preserve the app's cozy atmosphere
 - Recreate not only the appearance of physical mail, but the experience of sending and receiving it.
@@ -50,13 +50,12 @@ People who enjoy slower, intentional hobbies and experiences, such as:
 
 These users are likely to appreciate the product's atmosphere, customization, and emphasis on ritual.
 
-## 7. User Story
+## 7. Ideal User Experience
+Jackson lives several states away from his sister, and they mostly keep in touch through short text messages. Wanting to send something more thoughtful, he opens Snail Mail and chooses a piece of stationery that reminds him of her. He writes about his week, folds the letter, seals it in an envelope, applies a stamp, and drops it into the mailbox.
 
-Describe one ideal user journey.
+Over the next few days, he occasionally checks the letter's progress as it makes its way to her. When it finally arrives, his sister admires the carefully chosen stationery, envelope, stamp, and seal before opening it. As soft jazz plays in the background, she settles in to read his letter, appreciating both the message and the care that went into creating it. Inspired by the experience, she writes and sends a letter of her own.
 
-Example:
-
-Sarah misses writing handwritten letters. She opens Snail Mail, selects beautiful stationery, writes a thoughtful letter, decorates the envelope, mails it, tracks its progress, and smiles when her friend opens it days later.
+The exchange feels deliberate, personal, and worth the wait.
 
 ## 8. Core User Flow
 Home
@@ -100,78 +99,204 @@ Delivered
 ↓
 
 Read Letter
-9. MVP
-Authentication
-Letter Writing
-Delivery
-Reading
-10. Future Features
 
-Features that intentionally wait until after MVP.
+## 9. MVP
+- Authentication
+- Letter Writing
+- Delivery
+- Reading
 
-Group them if possible.
+## 10. Future Features
 
-11. Success Criteria
+**1. Personalization**
+- Additional stationery collections
+- Seasonal stationery
+- Sticker packs
+- Wax seals
+- Fountain pen styles
+- Ink effects
+- Custom handwriting (or Custom handwriting uploads)
+- Inner envelope liners
+- Vintage stamps
+- Music themes
+  
+**2. Collectibles & Progression**
+   
+- Stamp collection album
+- Rare collectible stamps
+- Postal milestones
+- Unlockable stationery
+- Mailbox upgrades
 
-How do you know the MVP works?
+**3. Social Features**
 
-Examples
+- Pen pal matching
+- Friend lists
+- Mail clubs
+- Book club integration
+- Holiday exchanges
+- Community events
 
-A user can:
+**4. Immersion**
+   
+- Ambient sounds
+- Dynamic weather (reflecting real-world conditions via a weather API)
+- Ambient environments (coffee shop, fireplace, rainy window, library, etc.)
+- Ink drying animations
+- Post office backgrounds
+- Seasonal themes
+- Correspondence Eras (Classic Postal, Medieval, Victorian)
+- Opening animations
+- Mailbox animations
 
-Register
-Write a letter
-Send it
-Receive it
-Reply
-12. Technical Scope
+**5. Communication**
 
-Frontend
+- Birthday reminders
+- Collaborative letters
+- Photo attachments
+- Pressed flower keepsakes (digital)
+- Memory scrapbook
 
-Backend
+**6. Physical Integration**
 
-Database
+- Printable PDFs
+- QR code linking physical letters to digital memories
+- NFC greeting cards
+- Hybrid physical/digital letters
 
-Authentication
+**7. Miscellaneous**
 
-Email Service
+*Memory Shelf*
 
-Hosting
+Instead of an inbox, completed conversations become books on a shelf. You open the shelf and browse years of correspondence.
 
-13. Risks / Unknowns
+*Shared Scrapbook*
 
-Questions you haven't answered yet.
+Every exchanged letter automatically becomes part of a scrapbook between two people. Over years it becomes a relationship archive.
 
-14. Out of Scope
+*Weather on Delivery*
 
-Things you're intentionally not building.
+Letters can include delivery details based on real-world conditions, such as "Delivered during the first snowfall" or "Delivered on a rainy afternoon." These small details help anchor letters to a specific moment in time, making them feel more memorable.
 
-This section prevents feature creep.
+*Postal Route*
 
-15. Milestones
-Milestone 1
+Replace the standard "Sent" status with an animated postal route, showing the letter travelling through sorting facilities and post offices before reaching its destination.
 
-Design
+*Memory Box*
 
-Milestone 2
+Keep tickets, photos, dried flowers (digitally), doodles, and little keepsakes inside conversations.
 
-Frontend
+*Correspondence History*
 
-Milestone 3
+Selecting a friend displays a timeline of your shared correspondence, allowing users to revisit important moments over the course of the relationship.
 
-Backend
+First Letter
 
-Milestone 4
+↓
 
-Testing
+12 Exchanges
 
-Milestone 5
+↓
 
-Deployment 
+Christmas Card
+
+↓
+
+Birthday Letter
+
+↓
+
+Vacation Postcard
+
+↓
+
+Today
+
+## 11. Success Criteria
+
+The MVP is considered successful if a user can:
+
+- Create an account.
+- Write a letter.
+- Personalize the letter using stationery, envelopes, and stamps.
+- Mail the letter through the simulated postal system.
+- Track its delivery.
+- Receive and open a delivered letter.
+- Reply to a received letter.
+- Complete the entire experience without external guidance.
+
+The product should successfully recreate the core rituals of handwritten correspondence while remaining intuitive and enjoyable to use.
+
+## 12. Technical Scope
+
+### Frontend
+- React
+- TypeScript
+- Tailwind CSS
+- Framer Motion (animations)
+
+### Backend
+- Node.js
+- Express.js
+
+### Database
+- PostgreSQL
+
+### Authentication
+- Clerk
+
+### Email Service
+- Resend
+
+### File Storage
+- Supabase Storage (or AWS S3)
+
+### Hosting
+- Vercel (Frontend)
+- Railway / Render (Backend & Database)
+
+### Third-Party APIs
+- Weather API (contextual weather and delivery ambience)
+
+## 13. Risks / Unknowns
+
+- How long should delivery times be?
+- Should delivery speed vary based on stamp type?
+- Should recipients be required to create an account before reading letters?
+- How should unread mail be presented to encourage anticipation rather than anxiety?
+- How should abusive or spam accounts be handled?
+- Should users be able to cancel a letter before it has been "mailed"?
+- How much customization is enough before it becomes overwhelming?
+- How should the platform balance immersion with usability?
+- Which animations genuinely improve the experience, and which become repetitive?
+
+## 14. Out of Scope (Feature Graveyard)
+
+| Feature | Reason |
+|---------|--------|
+| Instant messaging | Undermines intentional communication. |
+| Read receipts | Creates pressure to respond immediately. |
+| Typing indicators | Encourage real-time conversation over reflection. |
+| Infinite scrolling feed | Distracts from the correspondence experience. |
+| Time capsule letters | Better served by dedicated products and shifts the focus away from interpersonal correspondence. |
+| AI-generated letters | Reduces the authenticity and intentionality of personal expression. |
+
+## 15. Milestones
+- [ ] Product Brief
+- [ ] Wireframes & User Flows
+- [ ] High-Fidelity Figma Prototype
+- [ ] Frontend MVP
+- [ ] Backend & Database
+- [ ] Letter Delivery System
+- [ ] User Testing
+- [ ] MVP Launch
+
 
 ## 16. Future Vision
 
-What could it eventually become?
+Snail Mail aims to become more than a messaging platform—it aspires to be a digital home for meaningful correspondence. As the platform evolves, it will continue exploring new ways to preserve the rituals of handwritten communication through immersive themes, collectibles, community-driven events, and rich audiovisual experiences. Every addition should strengthen the feeling that writing a letter is a deliberate act of care rather than simply another form of messaging.
+
+Ultimately, Snail Mail seeks to make meaningful communication a hobby, an experience, and a lasting keepsake rather than a disposable exchange of information.
 
 ## 17. Emotional Experience
     
@@ -185,3 +310,4 @@ What could it eventually become?
 | Waiting |	Anticipation |
 | Receiving |	Excitement |
 | Reading	| Nostalgia |
+| Responding | Connection | 
