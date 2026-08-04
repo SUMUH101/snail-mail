@@ -294,7 +294,7 @@ The product should successfully recreate the core rituals of handwritten corresp
 
 ## 16. Future Vision
 
-Snail Mail aims to become more than a messaging platform—it aspires to be a digital home for meaningful correspondence. As the platform evolves, it will continue exploring new ways to preserve the rituals of handwritten communication through immersive themes, collectibles, community-driven events, and rich audiovisual experiences. Every addition should strengthen the feeling that writing a letter is a deliberate act of care rather than simply another form of messaging.
+Snail Mail aims to become more than a messaging platform, as it also aspires to be a digital home for meaningful interactions. As the platform evolves, it will continue exploring new ways to preserve the rituals of handwritten communication through immersive themes, collectibles,  and rich audiovisual experiences. Every addition should strengthen the feeling that writing a letter is a deliberate act of care rather than simply another form of messaging.
 
 Ultimately, Snail Mail seeks to make meaningful communication a hobby, an experience, and a lasting keepsake rather than a disposable exchange of information.
 
