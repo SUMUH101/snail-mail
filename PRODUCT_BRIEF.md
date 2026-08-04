@@ -53,7 +53,7 @@ These users are likely to appreciate the product's atmosphere, customization, an
 ## 7. Ideal User Experience
 Jackson lives several states away from his sister, and they mostly keep in touch through short text messages. Wanting to send something more thoughtful, he opens Snail Mail and chooses a piece of stationery that reminds him of her. He writes about his week, folds the letter, seals it in an envelope, applies a stamp, and drops it into the mailbox.
 
-Over the next few days, he occasionally checks the letter's progress as it makes its way to her. When it finally arrives, his sister admires the carefully chosen stationery, envelope, stamp, and seal before opening it. As soft jazz plays in the background, she settles in to read his letter, appreciating both the message and the care that went into creating it. Inspired by the experience, she writes and sends a letter of her own.
+Over the next few days, he occasionally checks the letter's progress as it makes its way to her. When it finally arrives, his sister admires the carefully chosen stationery before opening it. As soft jazz plays in the background, she settles in to read his letter, appreciating both the message and the care that went into creating it. Inspired by the experience, she writes and sends a letter of her own.
 
 The exchange feels deliberate, personal, and worth the wait.
 
